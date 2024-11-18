@@ -14,17 +14,18 @@ public class Client {
             OutputStreamWriter streamWriter = new OutputStreamWriter(server.getOutputStream());
             BufferedWriter writer = new BufferedWriter(streamWriter);
 
-            String name = "helena";
+            String name = "heledna";
             String pwd = "abc123";
             writer.write(name.concat("\r\n"));
             writer.flush();
             writer.write(pwd.concat("\r\n"));
             writer.flush();
             writer.close();
-            int res = server.waitFor();
+
             String serverRes = "NO";
             serverRes = reader.readLine();
             System.out.println(serverRes);
             reader.close();
+            int res = server.waitFor();
     }
 }
