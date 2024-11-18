@@ -12,5 +12,4 @@ Por cuestións prácticas, habemos supor que os pares (nome, password) están co
 
 Deseña e implementa, empregando linguaxe Java, unha solución ao problema descrito.
 
-Finalmente, debes anexar nun documento pdf o código fonte das clases Cliente e Servidor que se enviará á aula virtual do módulo para a súa corrección. 
 
